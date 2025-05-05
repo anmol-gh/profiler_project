@@ -1,0 +1,15 @@
+.footer {
+    color:white;
+    background-color: #8a2be2;
+    font-size: 1rem;
+    padding: 0.5rem;
+    text-align: center;
+    flex-shrink: 0;
+    height : 5%
+}
+
+.anchor-footer {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}

@@ -1,0 +1,40 @@
+.search-panel {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	height: 10%;
+}
+
+.username {
+	text-align: center;
+	color: black;
+	border: solid black 1px;
+	width: 13rem;
+	margin: 1rem;
+	padding: 0.5rem;
+	font-size : 16px;
+}
+
+.username:hover {
+	border: solid #8400ff 2px;
+}
+
+.username:focus {
+	border: solid #8400ff 1px;
+}
+
+.btn-availability {
+	padding: 0.5rem;
+	color: white;
+	background-color: #8400ff;
+	font-size : 16px;
+	border-radius: 0.3rem;
+}
+
+.btn-availability:hover {
+	cursor: pointer;
+	background-color: white;
+	color: #8400ff;
+	transition: 100ms;
+}

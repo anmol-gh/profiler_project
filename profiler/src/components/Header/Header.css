@@ -1,0 +1,32 @@
+.header {
+	height: 30%;
+	display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+
+.title {
+	text-align: center;
+	color: #8a2be2;
+	font-weight: 900;
+	letter-spacing: 0.1rem;
+	font-size: 5rem;
+}
+
+.description {
+	color: white;
+	text-align: center;
+	font-size: 1.5rem;
+	margin: 1rem;
+}
+
+.description-span {
+	background-color: white;
+	color: #8a2be2;
+	font-weight: 900;
+}
+
+.Typewriter {
+    display: inline;
+}
