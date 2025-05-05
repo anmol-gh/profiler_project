@@ -31,7 +31,7 @@ app.post("/insta", async (req, res) => {
 
 app.post("/report", async (req, res) => {
 	const reports = await report(req.body.username);
-	console.log(reports, "hi")
+	console.log(reports, )
 	res.send(reports);
 })
 

@@ -32,10 +32,10 @@ async function report(username) {
         });
         console.log("On: " + page.url());
 
-        const xpath = '//*[@id="mount_0_0_Bd"]/div/div/div[2]/div/div/div[1]/div[2]/div/div[1]/section/main/div/header/section[3]/ul/li[2]/div/a/span/span/span';
-        await page.waitForXPath(xpath);
-        const [element] = await page.$x(xpath);
-        const followerInstagram = await page.evaluate(el => el.textContent.trim(), element);
+        // const xpath = '//*[@id="mount_0_0_Bd"]/div/div/div[2]/div/div/div[1]/div[2]/div/div[1]/section/main/div/header/section[3]/ul/li[2]/div/a/span/span/span';
+        // await page.waitForXPath(xpath);
+        // const [element] = await page.$x(xpath);
+        // const followerInstagram = await page.evaluate(el => el.textContent.trim(), element);
 
         // var followersInstagram = await page.$eval(selector, el => el.textContent.trim());
 
@@ -44,8 +44,8 @@ async function report(username) {
             "followersGithub": followersGithub,
             "repositories": repositories,
             "followingGithub": followingGithub,
-            "followerInstagram": followerInstagram,
-            "followingInstagram": followersGithub
+            // "followerInstagram": followerInstagram,
+            // "followingInstagram": followersGithub
         }
 
 
