@@ -66,3 +66,11 @@
 #Quora:hover .tooltiptext {
 	visibility: visible;
 }
+
+.reportInvalid:hover {
+	cursor: not-allowed;
+}
+
+.reportValid {
+	cursor: pointer;
+}

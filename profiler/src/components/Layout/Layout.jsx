@@ -20,13 +20,13 @@ const Layout = () => {
 				<div className='main-section-child'>
 					{/* <div id='Github-report' className='company'> */}
 					{/* </div> */}
-					<button className='company' onClick={profile_report}>
+					<button className='company reportInvalid' onClick={profile_report}>
 						Profile Report
 					</button>
 					{/* <div id='Instagram-report' className='company'>
 						Profile Report
 					</div> */}
-					<button className='company' onClick={profile_report}>
+					<button className='company reportValid' onClick={profile_report}>
 						Profile Report
 					</button>
 				</div>

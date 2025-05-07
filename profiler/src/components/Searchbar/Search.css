@@ -13,7 +13,7 @@
 	width: 13rem;
 	margin: 1rem;
 	padding: 0.5rem;
-	font-size : 16px;
+	font-size: 16px;
 }
 
 .username:hover {
@@ -28,7 +28,7 @@
 	padding: 0.5rem;
 	color: white;
 	background-color: #8400ff;
-	font-size : 16px;
+	font-size: 16px;
 	border-radius: 0.3rem;
 }
 
@@ -37,4 +37,48 @@
 	background-color: white;
 	color: #8400ff;
 	transition: 100ms;
+}
+
+.reportSections {
+	height: 30%;
+	width: 90%;
+}
+
+.reportText {
+	font-size: 1.2rem;
+	color: white;
+	margin-right: 0.2rem;
+}
+
+.report-btn {
+	padding: 0.2rem;
+}
+.report-btn:hover {
+	cursor: pointer;
+	background-color: white;
+	color: #8400ff;
+	transition: 100ms;
+}
+
+.report-text {
+	margin-right: 0.5rem;
+	display: inline;
+}
+
+.details {
+	margin-top: 0.3rem;
+	display: inline;
+	margin-right: 0.5rem;
+}
+
+.repositories,
+.followers,
+.following {
+	margin-left: 0.4rem;
+}
+
+@media print {
+	.report-input {
+		display: none;
+	}
 }

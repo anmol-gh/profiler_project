@@ -25,7 +25,6 @@ async function instaCheck(username) {
 	} catch (error) {
 		return ("Unavailable")
 	}
-	// Launch the browser and open a new blank page
 
 };
 

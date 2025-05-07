@@ -1,0 +1,21 @@
+.reportText {
+	color: white;
+	text-align: center;
+	font-size: 1.5rem;
+	margin: 1rem;
+}
+
+.report-btn {
+	padding: 0.5rem;
+	color: white;
+	background-color: #8400ff;
+	font-size: 16px;
+	border-radius: 0.3rem;
+}
+
+.report-btn:hover {
+	cursor: pointer;
+	background-color: white;
+	color: #8400ff;
+	transition: 100ms;
+}
